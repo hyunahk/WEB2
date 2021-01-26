@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<!--    <input type="button" value="black" onclick="document.querySelector('body').style.backgroundColor='black';-->
+<!--    document.querySelector('body').style.color='white';">-->
+<!--    <input type="button" value="white" onclick="document.querySelector('body').style.backgroundColor='white';-->
+<!--    document.querySelector('body').style.color='black';">-->
+<!--    <input id='myblack' type="button" value="black" onclick="if(document.querySelector('#myblack').value=='black'){document.querySelector('#myblack').value='white';-->
+<!--    document.querySelector('body').style.backgroundColor='black';-->
+<!--    document.querySelector('body').style.color='white';}-->
+<!--    else{document.querySelector('#myblack').value='black';-->
+<!--    document.querySelector('body').style.backgroundColor='white';-->
+<!--    document.querySelector('body').style.color='black';}">-->
+    <input type="button" value="black" onclick="
+    var target=document.querySelector('body');
+    if(this.value=='black'){
+    target.style.backgroundColor='black';
+    target.style.color='white';
+    this.value='white';
+    } else {
+    target.style.backgroundColor='white';
+    target.style.color='black';
+    this.value='black';
+    }
+    ">
+    <h1>javascript</h1>
+    <p>java script html css</p>
+
+    <input type="button" value="white" onclick="
+    var target=document.querySelector('body');
+    if(this.value=='black'){
+    target.style.backgroundColor='black';
+    target.style.color='white';
+    this.value='white';
+    } else {
+    target.style.backgroundColor='white';
+    target.style.color='black';
+    this.value='black';
+    ">
+
+
+</body>
+</html>
